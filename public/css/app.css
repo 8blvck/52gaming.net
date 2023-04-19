@@ -1,0 +1,331 @@
+::-webkit-scrollbar {width: 5px;}
+::-webkit-scrollbar-track {background: #ffffff;}
+::-webkit-scrollbar-thumb {background: #EBF4FF;}
+[class*="tracking-app-"] *{box-sizing: border-box;}
+.tracking-app-quest-map{margin-top: 40px;background: #fff;}
+.tracking-app-quest-buttons{margin-bottom: 10px;}
+.tracking-app-quest-map>svg, .tracking-app-quest-map>img{width: 100%;height: auto;}
+.tracking-app-quest-map svg circle[data-quest]{cursor: pointer;}
+.tracking-app-quest-map .circles-blue circle[data-quest].selected{stroke: #affeff!important;stroke-width: 18px!important;}
+.tracking-app-quest-map .circles-rose circle[data-quest].selected{stroke: #e1d3fe!important;stroke-width: 18px!important;}
+.tracking-app-quest-map .circles-yellow circle[data-quest].selected{stroke: #F8F095!important;stroke-width: 18px!important;}
+.tracking-app-quest-map .circles-blue circle[data-quest].selected.done,
+.tracking-app-quest-map .circles-rose circle[data-quest].selected.done,
+.tracking-app-quest-map .circles-yellow circle[data-quest].selected.done{stroke: #00ff14!important;fill: #00ff14!important;stroke-width: 30px!important;}
+.tracking-app-order-chart-medals{margin-top: 10px;}
+.tracking-app-order-chart-medals .item{line-height: 21px;font-size: 15px;background: #303030;color: white;font-weight: 500;padding: 5px;}
+.tracking-app-order-chart-medals .item.box{font-size: 18px;}
+.tracking-app-order-chart-medals .item.box .value{display: inline-block;}
+.tracking-app-order-chart-medals .item.box .app-medal-container{border-radius: 3px;background-color: #fff;padding: 10px;max-width: 170px;margin: auto;box-sizing: border-box;box-shadow: 0 0 15px rgba(112, 73, 247, 0.15);}
+.tracking-app-order-chart-medals .item .app-medal-container img{height: 70px;max-height: 100%;width: auto;}
+.tracking-app-order-chart-medals .item .app-order-step-main-subtitle{color: #8a72fc;}
+.tracking-app-order-chart-medals .slider-arrows{margin: 3.5em 5px;}
+.tracking-app-text-center{text-align: center;}
+.tracking-app-order-statistics{font-family: 'Lato';max-width: 100%;}
+.tracking-app-float-right{float: right;}
+.tracking-app-float-left{float: left;}
+.tracking-app-color-red{color: #e74d3d!important;}
+.tracking-app-flex {margin-right: auto;margin-left: auto;display: -ms-flexbox;display: flex;-ms-flex-flow: row wrap;flex-flow: row wrap}
+.tracking-app-flex:before {display: none!important}
+.tracking-app-column{-ms-flex: 1 1 0px;flex: 1 1 0px;min-width: 0}
+.tracking-app-column-shrink {-ms-flex: 0 0 auto;flex: 0 0 auto;max-width: 100%}
+.tracking-app-button{color: #fff;background-color: #303030;border-radius: 7px;outline: none;border: none;font-size: 14px;font-weight: 900;vertical-align: middle;padding: 15px 28px;border:1px solid transparent;}
+.tracking-app-button:hover{box-shadow: 0px 1px 3px 0px #c1c1c1;}
+.tracking-app-button.tracking-app-button-lg{min-width: 170px;}
+.tracking-app-button.tracking-app-button-sm{font-size: 10px;padding: 8px 19px;border-radius: 3px;}
+.tracking-app-button-red{background-color: #E74D3D;border-color: #E74D3D;color: #fff;}
+.tracking-app-button-white{background-color: #fff;border-color: #000;color: #E74D3D;}
+.tracking-app-button-white:hover{background-color: #E74D3D;border-color: #E74D3D;color: #fff;}
+.tracking-app-box-container{margin: 0 -20px;}
+.tracking-app-box{margin: 30px 20px 0; padding: 20px;background: #fff;border-radius: 5px;box-shadow: 0px 1px 3px 0px #cacaca;}
+.tracking-app-box.tracking-app-box-spaced{padding: 40px;}
+.tracking-app-box.tracking-app-box-semispaced{padding: 30px;}
+.tracking-app-box.tracking-app-box-flat{padding: 0;}
+.tracking-app-box.tracking-app-box-transparent{box-shadow: none;background-color: transparent;}
+.tracking-app-breadcrumbs{padding: 40px 0;}
+.tracking-app-breadcrumbs span{color: #6b6b6b;font-size: 13px;font-weight: 600;font-family: 'Lato';letter-spacing: .5px;}
+.tracking-app-breadcrumbs span:first-of-type:before{display: none;}
+.tracking-app-breadcrumbs span:before{content: '\203A';padding: 0 8px 0 5px;font-size: 22px;line-height: 19px;vertical-align: bottom;}
+.tracking-app-breadcrumbs span:last-of-type{color: #e74d3d;font-weight: 900;}
+.tracking-app-breadcrumbs span:last-of-type a{text-decoration: underline!important;}
+.tracking-app-breadcrumbs span a{color: inherit;}
+.tracking-app-title{}
+.tracking-app-title .tracking-app-title-text{font-size: 30px;line-height: 30px;color: #2f2f2f;text-transform: uppercase;font-weight: 700;color: #2f2f2f;display: inline-block;}
+.tracking-app-badge{font-size: 10px;font-weight: 900;color: #fff;text-transform: uppercase;border-radius: 3px;background-color: #e74d3d;padding: 7px;vertical-align: top;display: inline-block;}
+.tracking-app-badge.tracking-app-title-badge{display: inline-block;margin-right: 30px;}
+.tracking-app-badge.tracking-app-title-badge.tracking-app-badge-light{background-color: #eaeaea;}
+.tracking-app-badge.tracking-app-badge-light{color: #6b6b6b;background-color: #F7F7F7;}
+.tracking-app-badge.tracking-app-badge-dark{color: #6b6b6b;background-color: #D7D7D7;}
+.tracking-app-aside-box{width: 320px;padding: 25px;}
+.tracking-app-winrate-chart{text-align: center;max-width: 160px;margin: auto;}
+.tracking-app-winrate-chart svg {transform: rotate(-90deg);}
+.tracking-app-winrate-chart .tracking-app-animate-stroke{-webkit-animation: svganimatestroke 1s ease-out forwards;animation: svganimatestroke 1s ease-out forwards;}
+@keyframes svganimatestroke {to {stroke-dasharray: 0 0;}}
+.tracking-app-winrate-info{text-align: center;font-size: 14px;color: #909090;padding: 15px 20px;}
+.tracking-app-winrate-info .tracking-app-winrate-value{font-size: 30px;font-weight: 900;padding-top: 7px;}
+.tracking-app-color-red{color: #e74d3d;}
+.tracking-app-color-black{color: #000000;}
+.tracking-app-box-title{font-weight: 900;font-size: 14px;text-transform: uppercase;color: #2f2f2f;}
+.tracking-app-box .tracking-app-box-title:not(:first-child){padding-top: 22px;padding-bottom: 22px;}
+.tracking-app-info-table{width: 100%;}
+.tracking-app-info-table table{width: 100%;}
+.tracking-app-info-table table tr td:last-child{width: 1px;}
+.tracking-app-progress-bar.tracking-app-progress-bar-lg {height: 10px;}
+.tracking-app-progress-bar {height: 5px;position: relative;background: #F7F7F7;border-radius: 10px;min-width: 100px;}
+.tracking-app-progress-bar > span {display: block;height: 100%;border-radius: 10px; background-color: #E74D3D;position: relative;overflow: hidden;max-width: 100%!important;}
+.tracking-app-info-table-name{color: #6b6b6b;font-size: 12px;font-weight: 900;letter-spacing: .5px;padding: 22px 0 5px;display: block;}
+.tracking-app-info-table-value{color: #e74d3d;font-size: 12px;font-weight: 900;letter-spacing: .5px;padding-left: 20px;text-align: left;white-space: nowrap;}
+.tracking-app-info-table-additional{color: #6b6b6b;font-size: 15px;font-weight: 500;padding: 7px 0 7px;display: inline-block;}
+.tracking-app-info-table-icon{width: 20px;display: inline-block;margin-right: 5px;}
+.tracking-app-logs{width: 100%;padding-top: 30px;}
+.tracking-app-logs table{width: 100%; font-size: 14px;}
+.tracking-app-logs table tr td:last-child{width: 1px;}
+.tracking-app-logs-time{color: #e74d3d;font-weight: 900;font-style: italic;}
+.tracking-app-logs-name{color: #2f2f2f;font-weight: 700;font-style: italic;}
+.tracking-app-logs-details{color: #e74d3d;font-weight: 900;text-decoration: underline;cursor: pointer;opacity: 0;transition: opacity .2s;}
+.tracking-app-logs-id{color: #2f2f2f;display: block;border-radius: 3px;border: 1px solid #DEDEDE;background-color: #F7F7F7;padding: 7px;width: 90px;}
+.tracking-app-logs-id b{font-weight: 900;font-size: 10px;}
+.tracking-app-logs-id img{width: 16px;height: 16px; height: auto;float: left;margin-right: 7px;}
+.tracking-app-logs table tr{cursor: pointer;}
+.tracking-app-logs table tr td{padding-bottom: 15px;}
+.tracking-app-logs table tr:hover .tracking-app-logs-details{opacity: 1;}
+.tracking-app-logs.tracking-app-orders-logs{padding-top: 10px;}
+.tracking-app-logs.tracking-app-orders-logs table tr{border-bottom: 1px solid #F2F2F2;}
+.tracking-app-logs.tracking-app-orders-logs table tr td{padding: 20px 0px;}
+.tracking-app-logs.tracking-app-orders-logs table tr:last-child{border-color: transparent;}
+.tracking-app-logs.tracking-app-orders-logs .tracking-app-logs-name{color: #6b6b6b;font-weight: 700;font-style: normal;font-size: 14px;}
+.tracking-app-logs.tracking-app-orders-logs .tracking-app-logs-details{opacity: 1;}
+.tracking-app-games-history-empty{text-align: center;padding: 50px 30px;}
+.tracking-app-games-history-empty p{font-size: 15px;color: #6b6b6b;}
+.tracking-app-games-history-empty b,.tracking-app-games-history-empty strong{text-decoration: underline;color: #2f2f2f;}
+.tracking-app-games-history-empty .tracking-app-button{margin-top: 30px;display: inline-block;}
+.tracking-app-games-history-table{width: 100%;margin-top: 22px;}
+.tracking-app-games-history-table .tracking-app-games-history-table-item,
+.tracking-app-games-history-table .tracking-app-games-history-table-hero{height:25px;display: inline-block;}
+.tracking-app-games-history-table .tracking-app-games-history-table-item img,
+.tracking-app-games-history-table .tracking-app-games-history-table-hero img{max-width: 100%;height: 100%;border-radius: 4px;overflow: hidden;}
+.tracking-app-games-history-table .kda{font-size: 14px;line-height: 10px;color: #2f2f2f;}
+.tracking-app-games-history-table thead tr{font-weight: 700;}
+.tracking-app-games-history-table thead tr td{color: #e74d3d;font-size: 13px;font-weight: 900; border-bottom: 1px solid #E8E8E8;}
+.tracking-app-games-history-table tbody tr td{color: #2f2f2f;font-size: 15px;font-weight: 500;}
+.tracking-app-games-history-table tbody{border:none;}
+.tracking-app-games-history-table tr:first-child td:first-child{border-radius: 5px 0 0 0;}
+.tracking-app-games-history-table tr:first-child td:last-child{border-radius: 0 5px 0 0;}
+.tracking-app-games-history-table thead tr td{padding: 15px 0;}
+.tracking-app-games-history-table tbody tr td{padding: 10px 0;}
+.tracking-app-games-history-table tr td:not(:first-of-type){padding-left: 15px;}
+.tracking-app-games-history-table .tracking-app-games-history-table-title-alternate{display: none;}
+.tracking-app-chart-bar-stacked{display: inline-block;width:100%;height: 5px;border-radius: 5px;overflow: hidden;white-space: nowrap;}
+.tracking-app-chart-bar-stacked>*{display: inline-block;float: left;width: 0;height: 100%;background-color: #fff;}
+.tracking-app-chart-bar-stacked>*:nth-child(1){background-color: #E54E3D;border-radius: 5px 0 0 5px;}
+.tracking-app-chart-bar-stacked>*:nth-child(2){background-color: #3BBC47;}
+.tracking-app-chart-bar-stacked>*:nth-child(3){background-color: #BAA51B;border-radius: 0 5px 5px 0;}
+.tracking-app-chat{width: 100%;}
+.tracking-app-chat .tracking-app-chat-messages{margin: 30px 0;max-height: 75vh;overflow: auto;}
+.tracking-app-chat .tracking-app-chat-message{display: table;margin-top: 30px;}
+.tracking-app-chat .tracking-app-chat-message:first-child{margin-top: 0;}
+.tracking-app-chat .tracking-app-chat-message .cell{display: table-cell;vertical-align: top;}
+.tracking-app-chat .tracking-app-chat-message .cell.image{min-width: 42px;}
+.tracking-app-chat .tracking-app-chat-message .cell.content{padding-left: 20px;vertical-align: top;width: 100%;}
+.tracking-app-chat .tracking-app-chat-message.self .cell.content{text-align: right;}
+.tracking-app-chat .tracking-app-chat-message.self .cell.image{visibility: hidden;}
+.tracking-app-chat .tracking-app-chat-message .avatar{width: 50px;height: 50px;border-radius: 100%;background-color: #E74D3D;overflow: hidden;}
+.tracking-app-chat .tracking-app-chat-message .avatar img{max-height: 100%; width: auto;height: 100%;}
+.tracking-app-chat .tracking-app-chat-date-separator{text-align: center;font-size: 12px;letter-spacing: .5px;color: #6b6b6b;overflow: hidden;margin: 10px 0;}
+.tracking-app-chat .tracking-app-chat-date-separator span{overflow: hidden;}
+.tracking-app-chat .tracking-app-chat-date-separator span:before,
+.tracking-app-chat .tracking-app-chat-date-separator span:after {background-color: #EBEBEB;content: "";display: inline-block;height: 1px;position: relative;vertical-align: middle;width: 50%;}
+.tracking-app-chat .tracking-app-chat-date-separator span:before {right: 1em;margin-left: -50%;}
+.tracking-app-chat .tracking-app-chat-date-separator span:after {left: 1em;margin-right: -50%;}
+.tracking-app-chat .person{font-size: 12px;color: #6b6b6b;font-weight: 500;margin: 0;letter-spacing: .5px;}
+.tracking-app-chat .created-at{display: inline-block;font-size: inherit;}
+.tracking-app-chat .message-text{padding: 15px 20px;font-size: 14px;color: #2f2f2f;background-color: #F7F7F7;border-radius: 5px;margin-top: 8px;letter-spacing: .5px;display: inline-block;max-width: 80%;}
+.tracking-app-chat .message-text .files a{font-size: 10px;padding: 2px 4px;margin: 2px;border-radius: 2px;color: #e74d3d;background-color: #fff;}
+.tracking-app-chat-form{padding: 15px 0px;margin: 0;}
+.tracking-app-chat-form:after{content: '';display: table; clear: both;}
+.tracking-app-chat-form .tracking-app-chat-form-message{display: block;position: relative;padding-right: 30px;}
+.tracking-app-chat-form.tracking-app-form .tracking-app-chat-form-message input{background-color: #F7F7F7;color: #909090;font-size: 14px;padding: 14px;}
+.tracking-app-chat-form.tracking-app-form .tracking-app-chat-form-message input:focus{background-color: transparent;}
+.tracking-app-orders-list .tracking-app-orders-list-item .tracking-app-button,
+.tracking-app-chat-form.tracking-app-form .tracking-app-button{font-size: 14px;padding: 16px 32px 15px;line-height: 16px;text-transform: uppercase;}	
+.tracking-app-chat-form .tracking-app-chat-form-message input{background-color: transparent;outline: none;color: #6b6b6b;width: 100%;font-weight: 500;font-size: 13px;padding: 9px 9px 9px 9px;border-radius: 5px;border:1px solid #EBEBEB;}
+.tracking-app-chat-form .tracking-app-chat-form-message input.tracking-app-form-input-with-icon{padding: 9px 9px 9px 40px;}
+.tracking-app-chat-form .tracking-app-chat-form-message input::placeholder{color: #6b6b6b;}
+.tracking-app-chat-form .tracking-app-chat-form-message .attachments{position: absolute;top: 0;left: 0;}
+.tracking-app-chat-form .attachments{color: #8c9ab0; font: 400 14px 'Lato';padding: 9px 15px;margin: 0; position: relative;cursor: pointer;}
+.tracking-app-chat-form .attachments svg{height: 14px;opacity: 0.5;transition: opacity .3s;vertical-align: middle;}
+.tracking-app-chat-form .attachments:hover svg,.ticket-details .tracking-app-chat-form .attachments.active svg{opacity: 1;}
+.tracking-app-chat-form .attachments input{display: none;}
+.tracking-app-chat-form .tracking-app-button{font-size: 13px;font-weight: 900;padding: 11px 18px 9px;text-transform: uppercase;border-radius: 5px;line-height: 16px;}	
+.tracking-app-tab-buttons{margin: 0 -15px;}	
+.tracking-app-tab-buttons button{outline: none;border: none;border-bottom: 1px solid transparent; color: #6b6b6b;text-transform: uppercase;background-color: transparent;font-size: 15px;font-weight: 900;letter-spacing: .5px;padding:0;margin: 0 15px;}	
+.tracking-app-tab-buttons button.active{color: #e74d3d;border-color: #e74d3d;font-weight: 900;}	
+.tracking-app-tab-buttons-sm{margin: 0 -5px;white-space: nowrap;}
+.tracking-app-tab-buttons-sm button{font-size: 12px;font-weight: 700;text-transform: none;margin: 0 5px;color: #2f2f2f;}
+.tracking-app-chart-graph{position: relative;}
+.tracking-app-chart-graph .apexcharts-tooltip{overflow: visible !important;white-space: normal !important;top: 0!important;}
+.tracking-app-chart-graph .tracking-app-chart-graph-tooltip {position: relative;background: #fff;font-size: 12px;color: #6b6b6b;box-shadow: 0px 0px 5px 1px #d4d4d4;display: inline-block;padding: 8px 16px;border-radius: 5px;}
+.tracking-app-chart-graph .tracking-app-chart-graph-tooltip span{display:block;text-align: center; font-weight: 500;}
+.tracking-app-chart-graph .tracking-app-chart-graph-tooltip strong{display:block;text-align: center; font-weight: 900;color: #e74d3d;}
+.tracking-app-chart-graph .tracking-app-chart-graph-tooltip:before,
+.tracking-app-chart-graph .tracking-app-chart-graph-tooltip:after {position: absolute;display: inline-block;top: 100%;left: 50%;content: '';}
+.tracking-app-chart-graph .tracking-app-chart-graph-tooltip:before{z-index: 1;border-left: 8px solid transparent;border-right: 8px solid transparent;border-top: 8px solid #d2d2d2;margin-left: -9px;}
+.tracking-app-chart-graph .tracking-app-chart-graph-tooltip:after{z-index: 2;border-left: 7px solid transparent;border-right: 7px solid transparent;border-top: 7px solid #ffff;margin-left: -8px;}
+.tracking-app-orders-list-info{width: 100%;}
+.tracking-app-orders-list-info table{width: 100%;}
+.tracking-app-orders-list{box-shadow: 0px 1px 3px 0px #cacaca;}
+.tracking-app-orders-list-item{border-radius: 3px;border-bottom: 1px solid #D7D7D7;background: #fff;border-radius: 5px;box-shadow: 0px 1px 3px 0px #cacaca;}
+.tracking-app-orders-list-item table{width: 100%;vertical-align: middle;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info{text-align: center;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info tr td{text-align: center;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(1){width: 40px;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(2){width: 20%;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(3){width: 5%;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(4){width: 20%;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(6){width: 20%;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info h6,
+.tracking-app-orders-list-item .tracking-app-orders-list-info h5{color: #6b6b6b;width: 100%;display: inline-block;margin: 0;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info h5{font-size: 30px;font-weight: 900;}
+.tracking-app-orders-list-item .tracking-app-orders-list-info h6{font-size: 12px;font-weight: 500;}
+.tracking-app-orders-list-item>table>tbody>tr>td{padding: 30px;}
+.tracking-app-orders-list-item>table>tbody>tr>td:last-child{width: 1px;border-left: 1px solid #D7D7D7;}
+.tracking-app-orders-list-item:last-child{border-color: transparent;}
+.tracking-app-orders-list-item-title{text-transform: uppercase;color: #2f2f2f;font-size: 16px;font-weight: 900;letter-spacing: 1px;}
+.tracking-app-orders-list-info tr:first-child td{padding-bottom: 20px;}
+.tracking-app-orders-list-info .tracking-app-progress-bar{min-width: 250px;}
+.tracking-app-orders-list-info-arrows{letter-spacing: 2px;position: relative;top: -10px;}
+.tracking-app-orders-list-info-logo{width: 40px; height: auto;}
+.tracking-app-pagination-container:after{content: '';display: table;clear: both;}
+.tracking-app-pagination-info{list-style: none;font-size: 15px;font-weight: 600;margin: 0;padding: 0;color: #6b6b6b;}
+.tracking-app-pagination-info li{height: 40px;line-height: 40px;color: #676767;display: inline;}
+.tracking-app-pagination {display: inline-block;padding: 0;margin: 0;border-radius: 3px;}
+.tracking-app-pagination:after{content: '';display: table;clear: both;}
+.tracking-app-pagination .arrow a{width: auto;padding: 0 12px;color: #676767;}
+.tracking-app-pagination .arrow i{font-weight: 400;}
+.tracking-app-pagination > li {display: inline;}
+.tracking-app-pagination > li > a,
+.tracking-app-pagination > li > span {cursor:pointer;position: relative;float: left;height: 40px;width: 40px;line-height: 40px;text-align: center;text-decoration: none;color: #2f2f2f;background-color: #ffffff;border: 1px solid #dddddd;margin-left: -1px;font-weight: 700;font-size: 14px;}
+.tracking-app-pagination > li:first-child > a,
+.tracking-app-pagination > li:first-child > span {border-bottom-left-radius: 3px;border-top-left-radius: 3px;}
+.tracking-app-pagination > li:last-child > a,
+.tracking-app-pagination > li:last-child > span {border-bottom-right-radius: 3px;border-top-right-radius: 3px;}
+.tracking-app-pagination > li > a:hover,
+.tracking-app-pagination > li > span:hover,
+.tracking-app-pagination > li > a:focus,
+.tracking-app-pagination > li > span:focus {z-index: 2;color: #e74d3d;background-color: #eeeeee;border-color: #dddddd;}
+.tracking-app-pagination > .active > a,
+.tracking-app-pagination > .active > span,
+.tracking-app-pagination > .active > a:hover,
+.tracking-app-pagination > .active > span:hover,
+.tracking-app-pagination > .active > a:focus,
+.tracking-app-pagination > .active > span:focus {z-index: 3;color: #ffffff;background-color: #D84037;border-color: #D84037;cursor: default;}
+.tracking-app-pagination > .disabled > span,
+.tracking-app-pagination > .disabled > span:hover,
+.tracking-app-pagination > .disabled > span:focus,
+.tracking-app-pagination > .disabled > a,
+.tracking-app-pagination > .disabled > a:hover,
+.tracking-app-pagination > .disabled > a:focus {color: #777777;background-color: #ffffff;border-color: #dddddd;cursor: not-allowed;}
+
+@media(max-width: 1199px) {
+	.tracking-app-games-history-table tbody tr td{font-size: 11px;text-align: center;}
+	.tracking-app-games-history-table .tracking-app-games-history-table-hero{width: 40px;}
+	.tracking-app-games-history-table .tracking-app-games-history-table-item {white-space: nowrap;}
+	.tracking-app-games-history-table .tracking-app-games-history-table-item img {height: 20px;}
+	.tracking-app-games-history-table tr td {padding: 10px 5px;}
+	.tracking-app-aside-box {width: 280px;}
+	.tracking-app-title .tracking-app-title-text{font-size: 24px;}
+}						
+@media(max-width: 991px) {
+	.tracking-app-badge.tracking-app-title-badge {margin-right: 15px;}
+	.tracking-app-title .tracking-app-title-text {font-size: 20px;}
+	.tracking-app-box-container{margin: 0;}
+	.tracking-app-box-container .tracking-app-box {margin: 30px 0px 0;}
+	.tracking-app-box-container.tracking-app-flex > .tracking-app-column{min-width: 100%;}
+	.tracking-app-box-container .tracking-app-column .tracking-app-aside-box{width: 50%;box-sizing: border-box;margin-left: 0;margin-right: 0;}
+	.tracking-app-aside-box-container{display: table;margin-top: 30px;}
+	.tracking-app-aside-box-container .tracking-app-aside-box{display: table-cell;vertical-align: top;}
+	.tracking-app-orders-list-info .tracking-app-progress-bar{display: none;}
+	.tracking-app-orders-list-item>table>tbody>tr>td{padding: 15px;}
+	.tracking-app-orders-list .tracking-app-orders-list-item .tracking-app-button, 
+	.tracking-app-chat-form.tracking-app-form .tracking-app-button{font-size: 12px;min-width: 110px;padding: 8px 10px 7px;}
+	.tracking-app-box.tracking-app-box-semispaced {padding: 15px;}
+	.tracking-app-logs.tracking-app-orders-logs table tr td{padding: 10px 10px;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info h5{font-size: 20px;}
+	.tracking-app-orders-list-item-title{font-size: 12px;text-align: left;}
+	.tracking-app-badge{padding: 4px 8px 3px;font-size: 8px;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info h6{font-size: 10px;}
+	.tracking-app-chat-form.tracking-app-form .tracking-app-chat-form-message input{padding: 9px;font-size: 12px;}
+	.tracking-app-chat-form .tracking-app-chat-form-message{padding-right: 15px;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(2){width: 30%;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(3){width: 10%;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(4){width: 30%;}
+
+}	
+@media(max-width: 767px) {
+	.tracking-app-games-history-table .tracking-app-games-history-table-item {white-space: normal;}
+	.tracking-app-title {text-align: center;}
+	.tracking-app-tab-buttons button{font-size: 13px;}
+	.tracking-app-chat .message-text{max-width: 95%;}
+	.tracking-app-badge.tracking-app-title-badge{margin: 15px;}
+	.tracking-app-chart-graph-buttons .tracking-app-column{min-width: 100%;}
+	.tracking-app-logs table tr td {padding: 7px;}
+	.tracking-app-logs .tracking-app-logs-details{opacity: 1;}
+	.tracking-app-logs table{font-size: 12px;}
+	.tracking-app-tab-buttons{text-align: center;padding: 10px 0;}
+	.tracking-app-pagination > li > a, .tracking-app-pagination > li > span{font-size: 12px;height: 30px;width: 30px;line-height: 29px;}
+	.tracking-app-pagination-info{font-size: 12px;}
+	.tracking-app-pagination-info li{height: auto;line-height: 30px;}
+	.tracking-app-logs.tracking-app-orders-logs .tracking-app-logs-name{font-size: 12px;}
+	.tracking-app-orders-list-item-title{letter-spacing: 0;}
+    .tracking-app-order-chart-medals .slider-arrows{display: none;}
+}	
+@media(max-width: 550px) {				
+	.tracking-app-games-history-table{display: block;}
+	.tracking-app-games-history-table tbody{display: block;width: 100%;}
+	.tracking-app-games-history-table tr{display: block;border-bottom: 1px solid #E74D3D;margin-bottom: 5px;padding-bottom: 5px;}
+	.tracking-app-games-history-table tr:after{content: '';display: table;clear: both;}
+	.tracking-app-games-history-table tr.heading{display: none;}
+	.tracking-app-games-history-table .tracking-app-games-history-table-title-alternate{display: block;float: left;text-align: left;width: 30%;}
+	.tracking-app-games-history-table tr td{display: block;float: left;text-align: center;width: 100%;padding: 5px 10px;}
+	.tracking-app-games-history-table tr td:not(:last-child){border-color: transparent;}
+	.tracking-app-games-history-table tr td:not(:first-of-type) {padding-left: 0;}
+	.tracking-app-games-history-table .tracking-app-games-history-table-title-alternate{font-weight: 700;}
+	.tracking-app-games-history-table .tracking-app-games-history-table-title-alternate {font-weight: 700;font-size: 11px!important;}
+	.tracking-app-games-history-table tbody tr td {padding: 7px 0;}
+	.tracking-app-chart-bar-stacked {width: 30%;margin: 2px;}
+	.tracking-app-tab-buttons button {font-size: 11px;}
+	.tracking-app-box-container .tracking-app-column .tracking-app-aside-box{width: 100%;}
+	.tracking-app-aside-box-container{margin-top: 0;}
+	.tracking-app-aside-box-container .tracking-app-aside-box {display: block;}
+	.tracking-app-chat .tracking-app-chat-message .cell{display: block;}
+	.tracking-app-chat .tracking-app-chat-message{display: block;}
+	.tracking-app-chat .tracking-app-chat-message .cell.image{display: none;}
+	.tracking-app-chat .tracking-app-chat-message .cell.content{padding-left: 0;}
+	.tracking-app-chat .message-text{font-size: 12px;}
+	.tracking-app-chat .tracking-app-chat-messages{margin: 15px 0;}
+	.tracking-app-box.tracking-app-box-spaced{padding: 25px;}
+	.tracking-app-chat-form{padding: 0;}
+	.tracking-app-chat-form .tracking-app-button{font-size: 8px;padding: 11px 7px 9px;}
+	.tracking-app-pagination-container{}
+	.tracking-app-pagination-container ul{display: block;margin: 0 auto;float: none;}
+	.tracking-app-orders-list-info-logo{display: none;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(1){width: 0%;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(2){width: 25%;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(3){width: 25%;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(4){width: 25%;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(5){width: 0%;}
+	.tracking-app-orders-list-item .tracking-app-orders-list-info tr td:nth-child(6){width: 25%;}
+	.tracking-app-orders-list-item-title {font-size: 9px;}
+
+}
+@media(max-width: 450px) {
+	.tracking-app-orders-list .tracking-app-orders-list-item .tracking-app-button, .tracking-app-chat-form.tracking-app-form .tracking-app-button{min-width: 0;padding: 8px 5px 7px;font-size: 10px;}
+	.tracking-app-games-history-table .tracking-app-games-history-table-item img {height: 17px;}
+	.tracking-app-orders-list .tracking-app-orders-list-item .tracking-app-button{min-width: 0;font-size: 8px;min-width: 0;padding: 3px 6px 2px;border-radius: 2px;}
+	.tracking-app-button.tracking-app-button-sm {font-size: 8px;padding: 8px 8px;border-radius: 2px;}
+	.tracking-app-orders-list-item>table>tbody>tr>td {padding: 5px;}
+	.tracking-app-chat-form .tracking-app-chat-form-message {padding-right: 5px;}
+	.tracking-app-box.tracking-app-box-semispaced{padding: 5px;}
+	.tracking-app-logs.tracking-app-orders-logs table tr td{padding: 5px;}
+}	
+
